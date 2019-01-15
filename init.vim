@@ -10,6 +10,10 @@ Plug 'w0rp/ale'
 
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+Plug 'mxw/vim-jsx'
+
 " JS START
 autocmd FileType javascript set formatprg=prettier\ --stdin " Prettier
 " JS END
