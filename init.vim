@@ -9,23 +9,27 @@ Plug 'w0rp/ale'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 Plug 'dracula/vim', { 'as': 'dracula' }
-
+Plug 'universal-ctags/ctags'
 Plug 'mxw/vim-jsx'
-
-Plug 'Valloric/YouCompleteMe'
-
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } 
-
 Plug 'junegunn/fzf.vim'
-
+Plug 'https://github.com/pangloss/vim-javascript.git'
 set number
 syntax on
-
 color dracula
 
 filetype indent off
 filetype  indent plugin off
 
+let NERDTreeMapOpenInTab='\r'
+
+nnoremap <silent><A-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
+nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
+
+nnoremap <silent><A-S-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
+nnoremap <silent><A-S-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
+
+set wildmenu
 set noautoindent
 set nowrap
 set noexpandtab
