@@ -5,7 +5,7 @@ Plug 'honza/vim-snippets'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 
 Plug 'w0rp/ale'
-
+Plug 'tpope/vim-surround'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 Plug 'dracula/vim', { 'as': 'dracula' }
@@ -14,6 +14,7 @@ Plug 'mxw/vim-jsx'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } 
 Plug 'junegunn/fzf.vim'
 Plug 'https://github.com/pangloss/vim-javascript.git'
+
 set number
 syntax on
 color dracula
