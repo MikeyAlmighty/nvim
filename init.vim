@@ -9,6 +9,7 @@ Plug 'vim-utils/vim-man'
 Plug 'git@github.com:kien/ctrlp.vim.git'
 Plug 'git@github.com:Valloric/YouCompleteMe.git'
 Plug 'mbbill/undotree'
+Plug 'tpope/vim-surround'
 
 call plug#end() 
 
@@ -39,10 +40,10 @@ let g:vrfr_rg = 'true'
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
 
-nnoremap <leader><Left> :wincmd h<CR>
+nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
-nnoremap <leader><Right> :wincmd l<CR>
+nnoremap <leader>l :wincmd l<CR>
 nnoremap <leader>u :UndotreeShow<CR>
 nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 nnoremap <Leader>ps :Rg<SPACE>
