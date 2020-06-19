@@ -10,6 +10,7 @@ Plug 'git@github.com:kien/ctrlp.vim.git'
 Plug 'git@github.com:Valloric/YouCompleteMe.git'
 Plug 'mbbill/undotree'
 Plug 'tpope/vim-surround'
+Plug 'janko-m/vim-test'
 
 call plug#end() 
 
