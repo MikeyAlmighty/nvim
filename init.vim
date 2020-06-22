@@ -14,13 +14,13 @@ Plug 'janko-m/vim-test'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'vim-airline/vim-airline'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end() 
 
 colorscheme gruvbox
 set bg=dark
 
-" End plugin system
 syntax on
 set noerrorbells
 set tabstop=4 softtabstop=4
@@ -63,3 +63,6 @@ vnoremap K :m '<-2<CR>gv=gv
 nmap <leader>gh :diffget //3<CR>
 nmap <leader>gu :diffget //2<CR>
 nmap <leader>gs :G<CR>
+
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
