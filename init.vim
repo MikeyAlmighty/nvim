@@ -19,6 +19,7 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'vim-airline/vim-airline'
 Plug 'jiangmiao/auto-pairs'
 Plug 'rking/ag.vim'
+Plug 'tpope/vim-commentary'
 
 call plug#end() 
 
