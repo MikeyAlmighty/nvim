@@ -48,6 +48,7 @@ let g:netrw_browse_split = 2
 let g:vrfr_rg = 'true'
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
+let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 
 " CoC extensions
 let g:coc_global_extensions = ['coc-tsserver']
