@@ -48,13 +48,13 @@ let loaded_matchparen = 1
 "The Final Frontier
 let mapleader = " "
 
-let g:netrw_browse_split = 2
-let g:vrfr_rg = 'true'
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
 
 " CoC extensions
 let g:coc_global_extensions = ['coc-tsserver']
+
+let g:netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
 
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
