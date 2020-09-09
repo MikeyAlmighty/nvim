@@ -30,11 +30,12 @@ set bg=dark
 syntax on
 
 set noerrorbells
-set tabstop=4 softtabstop=4
+set tabstop=4 softtabstop=4 expandtab
 set shiftwidth=4
 set smartindent
 set nowrap
 set smartcase
+set backspace=indent,eol
 set nobackup
 set incsearch
 set undodir=~/config/nvim/undodir
