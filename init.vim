@@ -21,6 +21,7 @@ Plug 'rking/ag.vim'
 Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-repeat'
+Plug 'dense-analysis/ale'
 
 call plug#end() 
 
@@ -111,6 +112,13 @@ set shortmess+=c
 "
 "" Always show signcolumns
 set signcolumn=yes
+
+" JS Linter
+let g:ale_linters = { 'javascript': ['standard']}
+let g:ale_fixers = {'javascript': ['standard']}
+
+let g:ale_lint_on_save = 1
+let g:ale_fix_on_save = 1
 
 " Help Vim recognize *.sbt and *.sc as Scala files
 au BufRead,BufNewFile *.sbt,*.sc set filetype=scala
