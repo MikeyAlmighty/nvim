@@ -76,6 +76,8 @@ nmap <leader>gs :G<CR>
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
 
+" SilverSearcher for current Word
+noremap <leader>a :Ag! "<cword>"<cr>
 
 " Remap keys for applying codeAction to the current line.
 nmap <leader>ac  <Plug>(coc-codeaction)
