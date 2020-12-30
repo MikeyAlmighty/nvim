@@ -22,6 +22,7 @@ Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-repeat'
 Plug 'dense-analysis/ale'
+Plug 'rust-lang/rust.vim'
 
 call plug#end() 
 
