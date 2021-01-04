@@ -73,6 +73,8 @@ vnoremap K :m '<-2<CR>gv=gv
 
 " Git Fugitive
 nmap <leader>gs :G<CR>
+nmap <leader>gc :Gcommit<CR>
+nmap <leader>gp :Gpush<CR>
 
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
