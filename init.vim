@@ -44,6 +44,7 @@ set undofile
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 set relativenumber
+set number
 
 let loaded_matchparen = 1
 
